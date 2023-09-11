@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {JokeInterface} from "../joke.interface";
 
 @Component({
   selector: 'app-chuck',
@@ -7,6 +8,8 @@ import { Component } from '@angular/core';
 })
 export class ChuckComponent {
 
-  joke: string = "";
+  joke: JokeInterface;
+
+
 
 }
